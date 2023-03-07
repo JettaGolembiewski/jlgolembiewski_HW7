@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Page 2</title>
+    <link rel="stylesheet" href="./css/stylesheet.css" />
+  </head>
+  <body>
+    <h1>Lifestyle Information</h1>
+    <form>
+      <fieldset>
+        <legend>
+          Which of the following social media platforms do you use regularly?:
+        </legend>
+        <label for="instagram">
+          <input
+            type="checkbox"
+            id="instagram"
+            name="social media"
+            value="instagram"
+          />
+          Instagram
+        </label>
+
+        <label for="snapchat">
+          <input
+            type="checkbox"
+            id="snapchat"
+            name="social media"
+            value="snapchat"
+          />
+          Snapchat
+        </label>
+
+        <label for="facebook">
+          <input
+            type="checkbox"
+            id="facebook"
+            name="social media"
+            value="facebook"
+          />
+          Facebook
+        </label>
+
+        <label for="twitter">
+          <input
+            type="checkbox"
+            id="twitter"
+            name="social media"
+            value="twitter"
+          />
+          Twitter
+        </label>
+
+        <label for="pinterest">
+          <input
+            type="checkbox"
+            id="pinterest"
+            name="social media"
+            value="pinterest"
+          />
+          Pinterest
+        </label>
+      </fieldset>
+
+      <div>
+        <label for="hours"
+          >How many hours per week do you typically spend on academic
+          activities?:
+
+          <select name="hours" id="hours">
+            <option value="">Please select a response...</option>
+            <option value="0-3">0-3</option>
+            <option value="3-6">3-6</option>
+            <option value="6-9">6-9</option>
+            <option value="9-12">9-12</option>
+            <option value="12 or more">12 or more</option>
+          </select>
+        </label>
+      </div>
+    
+      <div>
+        <label for="sleep">On average, how many hours of sleep do you get per night?:
+          <label for="0-4">
+            <input type="radio" id="0-4" name="sleep" value="0-4"> 0-4
+        </label>
+        
+        <label for="4-8">
+            <input type="radio" id="4-8" name="sleep" value="4-8"> 4-8
+        </label>
+        
+        <label for="8 or more">
+        <input type="radio" id="8 or more" name="sleep" value="8 or more"> 8 or more
+        </label>  
+
+      </div>
+    </form>
+    <p>
+      <button onclick="window.location.href='./thank-you.html';">
+        Submit survey
+      </button>
+    </p>
+    <p>Page 2 of 2</p>
+  </body>
+</html>

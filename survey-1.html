@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Page 1</title>
+    <link rel="stylesheet" href="./css/stylesheet.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>General Information</h1>
+
+    <form>
+      <fieldset>
+        <legend>Contact Information</legend>
+        <div>
+        <label for="fname">
+          First Name:
+          <input id="fname" type="text" autofocus required />
+        </label>
+        <div>
+        <label for="lname">
+          Last Name:
+          <input id="lname" type="text" required/>
+        </label>
+        <div>
+          <label for="phone" phone number:>
+            Phone Number:
+            <input id="phone" type="text" placeholder="815-501-8359" required/>
+          </label>
+          <div>
+        <div>
+        <label for="email">
+          Email Adress:
+          <input id="email" type="email" required/>
+        </label>
+        <div>
+      </fieldset>
+    
+      <div>
+        <label for="gender">Which category best represents your gender?:
+
+        <select name="gender" id="gender">
+            <option value="">Please select a response...</option>
+            <option value="man">Man</option>
+            <option value="woman">Woman</option>
+            <option value="trans man">Trans Man</option>
+            <option value="trans woman">Trans Woman</option>
+            <option value="genderqueer">Genderqueer</option>
+            <option value="gender non-conforming">Gender Non-conforming</option>
+            <option value="non-binary">Non-binary</option>
+            <option value="multi-gender">Multi-gender</option>
+            <option value="">Prefer not to answer</option>
+        </select>
+    </label>
+  </div>
+
+      <div>
+        <label for="school year">What is your current academic standing?:
+          <label for="freshman">
+            <input type="radio" id="freshman" name="school year" value="freshman"> Freshman
+        </label>
+        
+        <label for="sophomore">
+            <input type="radio" id="sophomore" name="school year" value="sophomore"> Sophomore
+        </label>
+        
+        <label for="junior">
+        <input type="radio" id="junior" name="school year" value="junior">Junior
+        </label>  
+  
+        <label for="senior">
+          <input type="radio" id="senior" name="school year" value="senior">Senior
+          </label>  
+      </div>
+
+      <div>
+        <label for="major">
+          What is your major?:
+          <input id="major" type="text" required/>
+        </label>
+      </div>
+    </form>
+
+    <p>
+      <button onclick="window.location.href='./survey-2.html';">
+        Next page
+      </button>
+    </p>
+    <p>Page 1 of 2</p>
+  </body>
+</html>
